@@ -1,0 +1,15 @@
+.bookPresent {
+    padding: 20px;
+    border: 1px solid black;
+}
+img.imageBook {
+    height: 334px;
+    width: 100%;
+    overflow: hidden;
+}
+
+p.nameBook {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}

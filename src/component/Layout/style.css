@@ -1,0 +1,60 @@
+.menu {
+    display: inline-block;
+    background-color: #3498db;
+    text-align: center;
+    margin: auto;
+    padding: 12px 0px;
+}
+.menu > ul {
+    list-style: none;
+    display: flex;
+    padding: 0 30px;
+}
+
+.menu > ul > li {
+    margin-right: 54px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    font-family: inherit;
+}
+.menu > ul > li > a {
+    font-size: 16px;
+    color: white;
+}
+.rootCarosel {
+    position: relative;
+}
+.childCarosel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.container2 {
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.imageBanner {
+    background-image: url("./../../asset/banner_3.png");
+    height: 100vh;
+}
+.categoryOfBook {
+    padding: 10px 20px 30px 20px;
+    text-align: center;
+    border-bottom: 1px solid #5c5c5c;
+}
+.categoryOfBook > h2 {
+    color: #5c5c5c;
+    margin-top: 8px;
+}
+.iconOfCategory {
+    font-size: 80px;
+    padding: 0px;
+    border: 1px solid #5c5c5c;
+    padding: 20px;
+    color: #5c5c5c;
+    border-radius: 14px;
+}

@@ -1,0 +1,86 @@
+.section-heading {
+    text-align: center;
+}
+.section-heading > h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.breakLine {
+    margin-top: 23px;
+    width: 200px;
+    position: relative;
+    height: 1px;
+    background: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.iconBreak {
+    left: 78px;
+    position: absolute;
+    top: -21px;
+    background: white;
+    padding: 10px;
+    font-size: 43px;
+}
+
+/* our category */
+.OurTopCategory {
+    background-color: black;
+}
+.OurTopCategory > .section-heading > h2,
+.OurTopCategory > .section-heading > i {
+    color: white;
+}
+.OurTopCategory > .section-heading > .breakLine {
+    background-color: white;
+}
+.OurTopCategory > .section-heading > .breakLine > .iconBreak {
+    background-color: black;
+    color: white;
+}
+.listCategoryDisplay {
+    width: 100%;
+    background-color: white;
+    margin: 0 16px;
+}
+
+.listCategory {
+    display: flex;
+}
+.listCategory > .previousAndNext {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+.listCategory .listCategoryDisplay {
+    width: 100%;
+    background-color: white;
+    margin: 0 16px;
+}
+.listCategory .listCategoryDisplay ul {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 15px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.listCategory .listCategoryDisplay ul li {
+    color: black;
+    cursor: pointer;
+    margin-right: 30px;
+}
+/* 
+ list book */
+.book {
+    border: 1px solid black;
+    height: 500px;
+    background-color: red;
+    padding: 20px;
+}
+.book > img {
+    width: 100%;
+}
